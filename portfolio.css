@@ -1,0 +1,104 @@
+/*Selector
+1. HTML Tag - NO SPECIAL CHARACTER NEEDED
+2. CLASS NAME - . before the CLASS NAME
+3. ID NAME - # before the ID NAME
+*/
+body{
+  background-color: #fff;
+}
+header {
+  background-color: #1279f0;
+  border-top: 10px solid #28c2f7;
+  border-left: 10px solid #28c2f7;
+  border-right: 10px solid #28c2f7;
+  text-align: center;
+  padding-top: 50px;
+  border-radius: 8px;
+  
+}
+.one-line {
+  border-bottom: 10px solid #28c2f7;
+  border-radius: 8px;
+}
+
+.section-style {
+  background-color: #fff;
+  padding: 3rem 2rem; /* rem means relative size wrt to parent element*/
+  border-radius: 8px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.3)
+}
+
+.section-style h2 {
+  color: #1279f0;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+nav {
+  background-color: #2c3e50;
+  padding: 1rem 0;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+nav ul li a{
+ color: #fff;
+  font-weight: bold;
+  margin: 0 15px; /*Either you can have 4/2 values in 1 prop OR you can have separate props for each side*/
+  text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+  color: #28d1f7;
+  font-size: 18px;
+  border: 2px;
+  border-style: solid;
+  border-color: #28f7e7;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+#switch-theme {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #2c3e50;
+  color: #fff;
+  border-radius: 8px;
+  transition: background-color 5s ease;
+}
+
+#switch-theme:hover {
+  background-color: #3498db;
+}
+
+
+.dark-theme {
+  background-color: #34495c;
+  color: #3e3b40;
+}
+
+.dark-theme header {
+  background-color: #34455e;
+  color:#ffffff;
+}
+
+.dark-theme nav {
+  background-color: #35566e;
+}
+
+#admin-login {
+  display: none;
+}
+
+#user-responses {
+  display: none;
+}
